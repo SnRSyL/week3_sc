@@ -1,0 +1,20 @@
+try:
+    f = open("efe.txt", "x")
+except:
+    print("you have already --------")
+for i in range(20):
+    with open("efe.txt", "w", encoding='utf-8') as f:
+      f.write("ırmak "+'\n')
+http://freedict.org/freedict-database.json
+f = open("efe.txt", 'r',encoding='utf-8')
+print(f.read())
+ary=[]
+str='ırmak hamza hamza hamza hamza hamza hamza hamza hamza hamza hamza hamza hamza hamza hamza hamza'
+
+newstr=str.split(' ')
+for i in newstr:
+    print(i.split('m'))
+
+
+
+
